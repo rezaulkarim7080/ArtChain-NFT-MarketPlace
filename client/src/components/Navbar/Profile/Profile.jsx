@@ -55,7 +55,10 @@ const Profile = ({ closeProfileMenu }) => {
           <div className="flex items-center gap-8 p-4 hover:bg-cyan-600 hover:text-white rounded-lg transition-all duration-300">
             <FaRegImage />
             <p>
-              <Link to="/my-items" onClick={handleLinkClick}>
+              <Link
+                to={`https://art-chain.vercel.app/my-items`}
+                onClick={handleLinkClick}
+              >
                 My Items
               </Link>
             </p>
