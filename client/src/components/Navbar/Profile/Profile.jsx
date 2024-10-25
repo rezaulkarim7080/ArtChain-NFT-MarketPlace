@@ -47,7 +47,7 @@ const Profile = ({ closeProfileMenu }) => {
           <div className="flex items-center gap-8 p-4 hover:bg-cyan-600 hover:text-white rounded-lg transition-all duration-300">
             <FaUserAlt />
             <p>
-              <Link to="/account" onClick={handleLinkClick}>
+              <Link to={`/account`} onClick={handleLinkClick}>
                 My profile
               </Link>
             </p>
@@ -55,7 +55,7 @@ const Profile = ({ closeProfileMenu }) => {
           <div className="flex items-center gap-8 p-4 hover:bg-cyan-600 hover:text-white rounded-lg transition-all duration-300">
             <FaRegImage />
             <p>
-              <Link to="/my-items" onClick={handleLinkClick}>
+              <Link to={`/my-items`} onClick={handleLinkClick}>
                 My Items
               </Link>
             </p>
@@ -63,7 +63,7 @@ const Profile = ({ closeProfileMenu }) => {
           <div className="flex items-center gap-8 p-4 hover:bg-cyan-600 hover:text-white rounded-lg transition-all duration-300">
             <FaUserEdit />
             <p>
-              <Link to="/upload-nft" onClick={handleLinkClick}>
+              <Link to={`/upload-nft`} onClick={handleLinkClick}>
                 Edit
               </Link>
             </p>
@@ -75,7 +75,7 @@ const Profile = ({ closeProfileMenu }) => {
           <div className="flex items-center gap-8 p-4 hover:bg-cyan-600 hover:text-white rounded-lg transition-all duration-300">
             <MdHelpCenter />
             <p>
-              <Link to="/upload-nft" onClick={handleLinkClick}>
+              <Link to={`/upload-nft`} onClick={handleLinkClick}>
                 Help
               </Link>
             </p>
