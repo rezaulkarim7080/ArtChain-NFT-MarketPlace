@@ -19,9 +19,9 @@ const Discover = () => {
           key={i}
           className=" p-2 hover:bg-cyan-600 hover:text-white rounded-md transition duration-300"
         >
-          <a href={`/${el.link}`} className="block">
+          <Link to={`/${el.link}`} className="block">
             {el.name}
-          </a>
+          </Link>
         </div>
       ))}
     </div>
