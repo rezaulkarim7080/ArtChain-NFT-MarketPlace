@@ -56,7 +56,7 @@ const Profile = ({ closeProfileMenu }) => {
             <FaRegImage />
             <p>
               <Link
-                to={`https://art-chain.vercel.app/my-items`}
+                to={"https://art-chain.vercel.app/my-items"}
                 onClick={handleLinkClick}
               >
                 My Items
